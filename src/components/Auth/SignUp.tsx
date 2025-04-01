@@ -67,7 +67,7 @@ export default function SignUp() {
                     >
                         Sign Up
                     </Button>
-                    <Button onClick={(e) => navigate('/SignIn')} fullWidth sx={{ mt: 3, mb: 2 }}>
+                    <Button onClick={() => navigate('/SignIn')} fullWidth sx={{ mt: 3, mb: 2 }}>
                         Already have an account? Sign In
                     </Button>
 

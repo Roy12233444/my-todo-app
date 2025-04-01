@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { useAuth } from '../../contexts/AuthContext';
-import { Task, SortKey } from '../../types/Task';
+import { SortKey } from '../../types/Task';
 import { Button, List, ListItem, ListItemText, Chip, Box, Typography, Select, MenuItem } from '@mui/material';
 import { Delete, CheckCircle, PanoramaFishEye } from '@mui/icons-material';
 import AddTask from './AddTask';
